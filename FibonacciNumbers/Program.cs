@@ -9,32 +9,32 @@ namespace FibonacciNumbers {
         }
 
         public static void generateFibonacci(int n) {
-            int[] arr = new int[n];
+            int[] result = new int[n];
 
-            arr[0] = 1;
-            arr[1] = 1;
+            result[0] = 1;
+            result[1] = 1;
 
             for (int i = 2; i < n; i++) {
-                arr[i] = arr[i-1] + arr[i-2];
+                result[i] = result[i-1] + result[i-2];
             }
             
-            foreach (var item in arr) {
+            foreach (var item in result) {
                 Console.WriteLine(item);
             }
         }        
 
         public static void generateFibonacci2(int n) {
-            List<int> lst = new List<int> { 1, 1 };
+            List<int> result = new List<int> { 1, 1 };
             //List<int> lst = new List<int> () { 1, 1 };            
 
-            while (lst.Count < 20) {
-                int previous = lst[lst.Count - 1];
-                int previous2 = lst[lst.Count - 2];
+            while (result.Count < n) {
+                int previous = result[result.Count - 1];
+                int previous2 = result[result.Count - 2];
 
-                lst.Add(previous + previous2);
+                result.Add(previous + previous2);
             }
 
-            foreach (var item in lst) {
+            foreach (var item in result) {
                 Console.WriteLine(item);
             }
         }

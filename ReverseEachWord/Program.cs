@@ -13,15 +13,15 @@ namespace ReverseEachWord
         public static string ReverseEachWord(string input)
         {
             string result = string.Empty;
-            string[] strArray = input.Split(' ');
-            string currentWord;
+            string[] words = input.Split(' ');
+            string current;
             
-            for (int i = 0; i < strArray.Length; i++)
+            for (int i = 0; i < words.Length; i++)
             {
-                currentWord = ' ' + strArray[i];
-                for (int j = currentWord.Length - 1; j >= 0; j--)
+                current = ' ' + words[i];
+                for (int j = current.Length - 1; j >= 0; j--)
                 {
-                    result += currentWord[j];
+                    result += current[j];
                 }
 
             }

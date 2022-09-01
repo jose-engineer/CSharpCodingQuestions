@@ -13,11 +13,11 @@ namespace ReverseOrderOfWords
         public static string ReverseOrderOfWords(string input)
         {
             string result = string.Empty;
-            string[] stringArray = input.Split(' ');
+            string[] words = input.Split(' ');
 
-            for (int i = stringArray.Length - 1; i >= 0; i--)
+            for (int i = words.Length - 1; i >= 0; i--)
             {
-                result += stringArray[i] + ' ';
+                result += words[i] + ' ';
             }
 
             return result;

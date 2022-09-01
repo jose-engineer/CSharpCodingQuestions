@@ -75,7 +75,7 @@ namespace MergeTwoSortedArrays {
             return lst1.Distinct().ToArray();
         }
 
-        public static int[] Merge3(int[] nums1, int[] nums2) { 
+        public static int[] Merge3(int[] nums1, int[] nums2) { //Merge without removing duplicates
             int[] result = new int[nums1.Length + nums2.Length];
             int p1 = 0, p2 = 0, i = 0;
 
