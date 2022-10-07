@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 
 namespace MergeTwoSortedArrays {
-    //Given 2 sorted arrays, merge them. Follow up, ensure only 1 of each element is saved in the merged array, aka no duplicates.
+    //Given 2 sorted arrays, merge them.
+    //Follow up: ensure only 1 of each element is saved in the merged array, aka no duplicates.
     class Program {
         static void Main(string[] args) {
             Array.ForEach(Merge(new int[] { 1, 2, 3 }, new int[] { 2, 5, 6 }), Console.WriteLine); //Expected: [1,2,2,3,5,6]

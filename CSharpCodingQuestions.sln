@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31727.386
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseString", "CSharpCodingQuestions\ReverseString.csproj", "{6BBCC365-F5AE-4B9A-9A35-BABA71278343}"
 EndProject
@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OcurrenceEachCharacter", "O
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{F9AD868F-C5C9-40B2-9A45-1356CCCC4932}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveCharacters", "RemoveCharacters\RemoveCharacters.csproj", "{613E1E40-E93E-456D-8287-CEFAA91AE3D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContainCharacters", "RemoveCharacters\ContainCharacters.csproj", "{613E1E40-E93E-456D-8287-CEFAA91AE3D6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciNumbers", "FibonacciNumbers\FibonacciNumbers.csproj", "{BE62DBD7-9CE7-43D6-A177-5D526B5D2668}"
 EndProject
@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeTwoSortedArrays", "Mer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseDecimal", "ReverseDecimal\ReverseDecimal.csproj", "{E2BA9A28-D392-4A0E-8616-80CEB3187C41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PositionSameLetter", "PositionSameLetter\PositionSameLetter.csproj", "{1E80FC73-826A-4EDC-A784-45324412131F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PositionSameLetter", "PositionSameLetter\PositionSameLetter.csproj", "{1E80FC73-826A-4EDC-A784-45324412131F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzTokens", "FizzBuzzTokens\FizzBuzzTokens.csproj", "{C84E6A1D-A046-4572-871E-FEDD53BCA64D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{1E80FC73-826A-4EDC-A784-45324412131F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E80FC73-826A-4EDC-A784-45324412131F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E80FC73-826A-4EDC-A784-45324412131F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C84E6A1D-A046-4572-871E-FEDD53BCA64D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C84E6A1D-A046-4572-871E-FEDD53BCA64D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C84E6A1D-A046-4572-871E-FEDD53BCA64D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C84E6A1D-A046-4572-871E-FEDD53BCA64D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

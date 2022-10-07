@@ -3,13 +3,13 @@
 namespace IsAnagram {
     class Program {
         static void Main(string[] args) {
-            Console.WriteLine(IsAnagram("xy", "yx"));
-            Console.WriteLine(IsAnagram("abc", "acb"));
+            Console.WriteLine(IsAnagram("xy", "yx")); //Expected: true
+            Console.WriteLine(IsAnagram("abc", "acb")); 
             Console.WriteLine(IsAnagram("a", "a"));
             Console.WriteLine(IsAnagram("ccc", "ccc"));
             Console.WriteLine(IsAnagram("cbda", "acbd"));
             Console.WriteLine();
-            Console.WriteLine(IsAnagram("abc", "cde"));
+            Console.WriteLine(IsAnagram("abc", "cde")); //Expected: false
             Console.WriteLine(IsAnagram("aaa", "bbb"));
             Console.WriteLine(IsAnagram("a", "b"));
             Console.WriteLine(IsAnagram("ab", "c"));

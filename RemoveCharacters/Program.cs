@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace RemoveCharacters
-{
+namespace ContainCharacters 
+    {
     class Program
     {
         //Write a program which take two strings as input from the user (str1 and str2). This program should print two strings as output (op1 and op2)

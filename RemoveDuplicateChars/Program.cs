@@ -11,26 +11,35 @@ namespace RemoveDuplicateChars
             Console.WriteLine(RemoveDuplicates2("abacdeceb"));
         }
 
-        public static string RemoveDuplicates(string input)
-        {
+        public static string RemoveDuplicates(string input) {
+            string result = string.Empty;            
+
+            for (int i = 0; i < input.Length; i++) {
+                if (!result.Contains(input[i])) {
+                    result += input[i];
+                }
+            }
+
+            return result;
+        }        
+
+        public static string RemoveDuplicates2(string input) {
+            char[] charArray = input.ToCharArray().Distinct().ToArray();
+            return new string(charArray);
+        }
+
+        public static string RemoveDuplicates3(string input) {
             string result = string.Empty;
 
             char[] charArray = input.ToCharArray();
 
-            for(int i=0; i<charArray.Length; i++)
-            {
-                if (!result.Contains(charArray[i]))
-                {
+            for (int i = 0; i < charArray.Length; i++) {
+                if (!result.Contains(charArray[i])) {
                     result += charArray[i];
                 }
             }
 
             return result;
-        }
-
-        public static string RemoveDuplicates2(string input) {
-            char[] charArray = input.ToCharArray().Distinct().ToArray();
-            return new string(charArray);
         }
     }
 }

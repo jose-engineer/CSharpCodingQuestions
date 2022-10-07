@@ -5,9 +5,8 @@ namespace ReverseString
     class Program
     {
         static void Main(string[] args)
-        {
-            // input: hello, output: olleh
-            Console.WriteLine(ReverseString2("hello"));
+        {            
+            Console.WriteLine(ReverseString2("Hello World")); //Expected: dlroW olleH
         }
 
         public static string ReverseString(string input)

@@ -7,10 +7,9 @@ namespace BinarySearch
         static void Main(string[] args)
         {
             int[] A = new int[] { 1, 2, 4, 5, 6, 7, 8, 9, 11 };
-            int number = 6;
-            bool found = BinarySearch(A, number, 0, A.Length - 1);
+            int number = 6;            
 
-            Console.WriteLine("Is the number {0} in the array? -> {1}", number, found);
+            Console.WriteLine(BinarySearch(A, number, 0, A.Length - 1)); //Expected: true
         }
 
         public static bool BinarySearch(int[] array, int input, int left, int right)

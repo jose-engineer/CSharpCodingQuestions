@@ -8,19 +8,14 @@ namespace BubbleSort
     {
         //Complexity O(n^2): Bubble sort, Selection sort and Insertion sort
         static void Main(string[] args)
-        {
-            int[] A = { 8, 2, 4, 1, 3 };
-            //int[] A = { 8, 2, 4, 1, 3, 2 };
-            //int[] A = { 8 };
-            //int[] A = { };
-
-            int[] output = BubbleSort(A);
-
-            foreach (var item in output)
-            {
-                Console.WriteLine(item);
-            }       
-            
+        {            
+            Array.ForEach(BubbleSort(new int[] { 8, 2, 4, 1, 3 }), Console.WriteLine);
+            Console.WriteLine();
+            Array.ForEach(BubbleSort(new int[] { 8, 2, 4, 1, 3, 2 }), Console.WriteLine);
+            Console.WriteLine();
+            Array.ForEach(BubbleSort(new int[] { 8 }), Console.WriteLine);
+            Console.WriteLine();
+            Array.ForEach(BubbleSort(new int[] { }), Console.WriteLine);
         }
 
         public static int[] BubbleSort(int[] input)
@@ -36,6 +31,7 @@ namespace BubbleSort
                     }
                 }
             }
+
             return input;
         }
     }

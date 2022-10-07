@@ -6,8 +6,8 @@ namespace ReverseOrderOfWords
     {
         static void Main(string[] args)
         {
-            // input: Welcome to Csharp corner, output: corner Csharp to Welcome
-            Console.WriteLine(ReverseOrderOfWords("Welcome to Csharp corner"));
+            // input: Welcome to Csharp corner, 
+            Console.WriteLine(ReverseOrderOfWords("Welcome to Csharp corner")); //output: corner Csharp to Welcome
         }
 
         public static string ReverseOrderOfWords(string input)

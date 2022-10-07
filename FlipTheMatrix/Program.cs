@@ -1,10 +1,15 @@
 ﻿using System;
 
 namespace FlipTheMatrix {
+//    Given a 2D array with values of 1 or 0, do the following actions:
+//Flip the matrix horizontally
+//Replace 1 with 0 and replace 0 with 1
     class Program {
         static void Main(string[] args) {
 
-            int[][] matrix = new int[][] { new int[] { 1,1,0,0 }, new int[] { 0,1,0,0 }, new int[] { 0,0,1,1 } };
+            int[][] matrix = new int[][] {  new int[] { 1,1,0,0 }, 
+                                            new int[] { 0,1,0,0 }, 
+                                            new int[] { 0,0,1,1 } };
 
             Console.WriteLine("Before: ");
             displayMatrix(matrix);
