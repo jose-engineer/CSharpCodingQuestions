@@ -28,11 +28,11 @@ namespace OcurrenceEachCharacter
                 {                    
                     if (!hMap.ContainsKey(current))
                     {
-                        hMap.Add(current, 1); //hMap[current] = 1;
+                        hMap[current] = 1; //hMap.Add(current, 1); 
                     }
                     else
                     {
-                        hMap[current] += 1; //hMap[current]++;  //increment 1 to that "character" key    
+                        hMap[current]++; //hMap[current] += 1;  //increment 1 to that "character" key    
                     }
                 }
             }

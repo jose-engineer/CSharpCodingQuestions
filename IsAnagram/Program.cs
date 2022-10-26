@@ -31,7 +31,7 @@ namespace IsAnagram {
             foreach (var item in str2) {
                 int index = str1.IndexOf(item);
                 if (index >= 0) {
-                    str1 = str1.Remove(index, 1);
+                    str1 = str1.Remove(index, 1); // remove starting from "index" 1 character
                 }
             }
 

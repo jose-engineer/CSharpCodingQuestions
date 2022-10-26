@@ -15,7 +15,7 @@ namespace RemoveDuplicateChars
             string result = string.Empty;            
 
             for (int i = 0; i < input.Length; i++) {
-                if (!result.Contains(input[i])) {
+                if (!result.Contains(input[i])) { // string has a Contains function, very handy in this case
                     result += input[i];
                 }
             }
